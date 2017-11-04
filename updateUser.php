@@ -73,6 +73,10 @@ if(isset($_GET['deptId'])) {
 <html>
     <head>
         <title> Update User</title>
+         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+          <style>
+          @import url("./CSS/styles.css"); 
+          </style>
     </head>
     <body>
          <h1> Tech Checkout System: Adding a New User </h1>
@@ -108,7 +112,7 @@ if(isset($_GET['deptId'])) {
             </select>
             <input type="submit" value="Update User" name="updateUser">
             <br />
-            <input type="submit" value="Back to Admin Main" name="addUser">
+            <!-- <input type="submit" value="Back to Admin Main" name="addUser"> -->
         </form>
 
     </body>

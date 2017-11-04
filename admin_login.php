@@ -51,6 +51,10 @@ function loginProcess() {
 <html>
     <head>
         <title>Admin Login</title>
+         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+          <style>
+          @import url("./CSS/styles.css"); 
+          </style>
     </head>
     <body>
         <h1>Admin Login</h1>

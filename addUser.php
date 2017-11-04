@@ -38,6 +38,10 @@ if (isset($_GET['addUser'])) { // the form has been submitted.
 <html>
     <head>
         <title>Admin: Add new user</title>
+         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+          <style>
+          @import url("./CSS/styles.css"); 
+          </style>
     </head>
     <body>
         <h1>Adding New User</h1>

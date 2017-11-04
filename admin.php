@@ -27,6 +27,10 @@ function userList() {
 <html>
     <head>
         <title>Admin Main Page </title>
+         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+          <style>
+          @import url("./CSS/styles.css"); 
+          </style>
         <script>
             
             function confirmDelete() {
