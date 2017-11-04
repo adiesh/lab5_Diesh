@@ -2,6 +2,7 @@
 
    include 'information.php'; 
    
+   // https://cst336-lab5-adiesh.c9users.io/phpMyAdmin/
    
    function displayListOfDevices() {
        
