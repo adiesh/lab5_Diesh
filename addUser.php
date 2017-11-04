@@ -15,13 +15,14 @@ function departmentList(){
 
 if (isset($_GET['addUser'])) { // the form has been submitted. 
     $sql = "INSERT INTO User
-                (firstName, lastName, email, role, deptId)
+                (firstName, lastName, email, role, phone deptId)
             VALUES
-                (:fName, :lName, :email, :role, :deptId)";
+                (:fName, :lName, :email, :role, :phone :deptId)";
     $np = array();
     $np[':fName'] = $_GET['firstName'];
     $np[':lName'] = $_GET['lastName'];
     $np[':email'] = $_GET['email'];
+    $np[':phone'] = $_GET['phone'];
     $np[':role'] = $_GET['role'];
     $np[':deptId'] = $_GET['deptID'];
     
